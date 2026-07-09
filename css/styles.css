@@ -878,9 +878,8 @@ section {
 }
 
 .topbar .navlinks {
-    justify-self: end;
-    display: flex;
-    align-items: center;
+  justify-self: end;
+  align-items: center;
 }
 
 .site-logo {
