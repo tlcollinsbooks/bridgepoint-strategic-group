@@ -1932,5 +1932,14 @@ section {
 
 }
 
+/* Mobile and tablet hero-image positioning */
+@media (max-width: 900px) {
+  .development-hero {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
+
 
 
