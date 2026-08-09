@@ -159,7 +159,16 @@
 
           <div class="contact-detail">
             <strong>WhatsApp</strong>
-            <span>+507 6603 8665</span>
+            <span>+507 6888-0790</span>
+          </div>
+
+          <div class="contact-detail">
+            <strong>Email</strong>
+            <span>
+              <a href="mailto:info@bridgepointstrategicgroup.com">
+                info@bridgepointstrategicgroup.com
+              </a>
+            </span>
           </div>
 
           <div class="contact-detail">
@@ -181,16 +190,23 @@
         <div class="contact-form-card">
           <h3>Project Enquiry</h3>
 
-          <form>
+          <form name="bridgepoint-enquiry" method="POST" data-netlify="true">
             <div class="form-group">
               <label for="name">Name</label>
-              <input id="name" type="text" placeholder="Your name" />
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Your name"
+                required
+              />
             </div>
 
             <div class="form-group">
               <label for="company">Company</label>
               <input
                 id="company"
+                name="company"
                 type="text"
                 placeholder="Company or project name"
               />
@@ -198,17 +214,28 @@
 
             <div class="form-group">
               <label for="email">Email</label>
-              <input id="email" type="email" placeholder="Your email address" />
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="Your email address"
+                required
+              />
             </div>
 
             <div class="form-group">
               <label for="phone">Phone / WhatsApp</label>
-              <input id="phone" type="text" placeholder="Your contact number" />
+              <input
+                id="phone"
+                name="phone"
+                type="tel"
+                placeholder="Your contact number"
+              />
             </div>
 
             <div class="form-group">
               <label for="project-type">Project Type</label>
-              <select id="project-type">
+              <select id="project-type" name="project-type" required>
                 <option>Development Management</option>
                 <option>Infrastructure</option>
                 <option>BridgeWork Solutions</option>
@@ -222,6 +249,8 @@
               <label for="message">Tell us about your project</label>
               <textarea
                 id="message"
+                name="message"
+                required
                 rows="6"
                 placeholder="Briefly describe what you are planning..."
               ></textarea>
@@ -306,7 +335,12 @@
 
         <div>
           <h4>Contact</h4>
-          <p>WhatsApp +507 6603 8665</p>
+          <p>WhatsApp +507 6888-0790</p>
+          <p>
+            <a href="mailto:info@bridgepointstrategicgroup.com">
+              info@bridgepointstrategicgroup.com
+            </a>
+          </p>
           <p>Mariato District, Veraguas Province, Panama</p>
           <p>EN | ES</p>
         </div>
