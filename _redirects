@@ -1,0 +1,27 @@
+# Legacy indexable pages only. Force redirects past existing HTML files.
+# Clean paths are served by Netlify native HTML routing; no reverse rewrites.
+# Confirmation POST routes are deliberately excluded.
+/about-es.html  /about-es  301!
+/about.html  /about  301!
+/azuero-capital-advisory-es.html  /azuero-capital-advisory-es  301!
+/azuero-capital-advisory.html  /azuero-capital-advisory  301!
+/bridgepoint-infrastructure-es.html  /bridgepoint-infrastructure-es  301!
+/bridgepoint-infrastructure.html  /bridgepoint-infrastructure  301!
+/bridgepoint-strategic-es.html  /bridgepoint-strategic-es  301!
+/bridgepoint-strategic.html  /bridgepoint-strategic  301!
+/bridgework-solutions-es.html  /bridgework-solutions-es  301!
+/bridgework-solutions.html  /bridgework-solutions  301!
+/contact-es.html  /contact-es  301!
+/contact.html  /contact  301!
+/development-management-es.html  /development-management-es  301!
+/development-management.html  /development-management  301!
+/divisions-es.html  /divisions-es  301!
+/divisions.html  /divisions  301!
+/horizon-residential-es.html  /horizon-residential-es  301!
+/horizon-residential.html  /horizon-residential  301!
+/index-es.html  /index-es  301!
+/index.html  /  301!
+/partners-es.html  /partners-es  301!
+/partners.html  /partners  301!
+/projects-es.html  /projects-es  301!
+/projects.html  /projects  301!
