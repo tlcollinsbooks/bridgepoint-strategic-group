@@ -255,7 +255,7 @@ h3,
 .hero-about {
     background:
         linear-gradient(90deg, rgba(7,27,51,.82), rgba(7,27,51,.55) 42%, rgba(7,27,51,.15)),
-        url('../assets/images/about/about-hero-bridgepoint.jpg.png') center/cover;
+        url('../assets/images/about/about-hero-bridgepoint-optimized-1717.webp') center/cover;
 }
 
 .hero::after {
@@ -904,7 +904,7 @@ section {
             rgba(7,27,51,.08) 45%,
             rgba(7,27,51,.05)
         ),
-        url("../assets/images/partners/partners-hero.png") center/cover;
+        url("../assets/images/partners/partners-hero-optimized-1717.webp") center/cover;
 }
 
 .partners-image-hero::after {
@@ -1069,7 +1069,7 @@ section {
             rgba(7,27,51,.55) 42%,
             rgba(7,27,51,.15)
         ),
-        url("../assets/images/divisions/bridgepoint-strategic-hero.png.png")
+        url("../assets/images/divisions/bridgepoint-strategic-hero-optimized-1536.webp")
         center/cover no-repeat;
 }
 
@@ -1276,7 +1276,7 @@ section {
             rgba(0, 18, 45, 0.72) 35%,
             rgba(0, 18, 45, 0.30) 100%
         ),
-        url("../assets/images/divisions/development-management-hero.png.png");
+        url("../assets/images/divisions/development-management-hero-optimized-1672.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1351,7 +1351,7 @@ section {
             rgba(7,27,51,.25) 70%,
             rgba(7,27,51,.10) 100%
         ),
-        url("../assets/images/divisions/bridgepoint-infrastructure-hero.png")
+        url("../assets/images/divisions/bridgepoint-infrastructure-hero-optimized-1536.webp")
         center center / cover no-repeat;
 }
 
@@ -1363,7 +1363,7 @@ section {
             rgba(7,27,51,.62) 42%,
             rgba(7,27,51,.18)
         ),
-        url("../assets/images/divisions/bridgepoint-infrastructure-hero.png")
+        url("../assets/images/divisions/bridgepoint-infrastructure-hero-optimized-1536.webp")
         center center / cover no-repeat;
 }
 
@@ -1383,7 +1383,7 @@ section {
             rgba(7,27,51,.60) 42%,
             rgba(7,27,51,.18)
         ),
-        url("../assets/images/projects/projects-hero.png")
+        url("../assets/images/projects/projects-hero-optimized-1536.webp")
         center center / cover no-repeat;
 }
 
@@ -1573,7 +1573,7 @@ section {
             rgba(7,27,51,.62) 42%,
             rgba(7,27,51,.18)
         ),
-        url("../assets/images/contact/contact-hero.png")
+        url("../assets/images/contact/contact-hero-optimized-1672.webp")
         center center / cover no-repeat;
 }
 
@@ -1665,6 +1665,7 @@ section {
 }
 
 .map-card img {
+    height: auto;
     width: 100%;
     display: block;
 }
@@ -2032,7 +2033,7 @@ section {
 .horizon-intro, .support-intro { padding-top: 195px; }
 .horizon-section { scroll-margin-top: 175px; }
 .bridgework-services h2 { color: var(--gold2); }
-.bridgework-hero { background-image: linear-gradient(90deg, rgba(7,27,51,.88), rgba(7,27,51,.5)), url('../assets/images/divisions/bridgework-trenching.png'); }
+.bridgework-hero { background-image: linear-gradient(90deg, rgba(7,27,51,.88), rgba(7,27,51,.5)), url('../assets/images/divisions/bridgework-trenching-optimized-1672.webp'); }
 @media (max-width: 600px) {
  .bridgework-hero .division-hero-content { padding-left: 0; padding-right: 0; width: 90%; margin-left: auto; margin-right: auto; padding-top: 45px; padding-bottom: 45px; }
  .bridgework-hero h1 { font-size: 2.7rem; }
@@ -2073,3 +2074,6 @@ section {
 .section-head h1.partners-title { font-size: clamp(2.2rem, 4vw, 4rem); color: var(--navy); margin-bottom: 28px; letter-spacing: -.035em; }
 .horizon-intro .horizon-copy .horizon-tagline, .horizon-copy h2.support-heading { font-family: Georgia, 'Times New Roman', serif; font-size: clamp(1.35rem, 2.3vw, 2rem); line-height: 1.08; margin: 32px 0 16px; }
 .horizon-intro .horizon-copy .horizon-tagline { color: var(--gold2); }
+
+/* Keep intrinsic dimensions from stretching unframed project images. */
+.project-feature-card > img { height: auto; }
